@@ -8,16 +8,12 @@
 
 :root {
     --light:  lightblue;
+    --background: lightgray;
 }
-
-header { /* Elemental selector */
-    font-size: 10rem;
-}
-
 
 h1 {text-align: center; /* Elemental selector */
-font-size: 50px;
-background-color: lightgray;
+font-size: 5rem;
+background-color: var(--background);
 }
 
 body { /* Elemental selector */
@@ -54,6 +50,20 @@ section {/* Elemental selector */
 
 p { /* Elemental selector */
     text-indent: 30px;
+}
+
+.profile {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.profile img {
+    transition: all 0.3s;
+}
+
+.profile:hover img {
+    transform: scale(1) rotate(5deg);
 }
 
 .a:hover { /* class  selector */
@@ -99,13 +109,17 @@ p { /* Elemental selector */
 .a { /* class  selector */
     transform: rotate(0deg);
     margin-bottom: 100px;
+
 }
+
 
 .Contact { /* class  selector */
     display: inline-block;
     border: solid;
     border-radius: 10px;
     font-size: 3rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -115,17 +129,32 @@ p { /* Elemental selector */
     display: block;
 }
 
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    margin:0;
+    padding:0;
 }
 
-@media screen (max-width: 972px) {
+
+
+@media screen and (max-width: 700px) {
     section {
         columns: 3;
     }    
+
+    body {
+        background-color: yellowgreen;
+    }
 }
 
-@media screen (max-width: 600px) {
+@media screen and (max-width: 600px) {
     section {
         columns: 2;
     }
+    body {
+        background-color: orange;
 }
+
+
 
