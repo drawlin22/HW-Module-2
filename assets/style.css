@@ -35,21 +35,45 @@ img { /* Elemental selector */
     transform: rotate(15deg);
 }
 
-
 nav { /* Elemental selector */
 padding: 20px;
-margin: 15px 15px 250px 15px;
+/* margin: 15px 15px 250px 15px; */
 font-family: 'Times New Roman', Times, serif;
 position: relative;
 }
 
-section {/* Elemental selector */
-    padding: 5px;
-    margin: 20px;
-}
-
 p { /* Elemental selector */
     text-indent: 30px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+footer {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+footer ul { 
+    display: none;
+    margin: auto;
+}
+
+footer:hover ul {
+    Display: inline;
+}
+
+footer ul li {
+    display: inline;
+}
+
+.footer {
+    font-size: 1.5rem;
+    display: inline;
+    margin-bottom: 25px;
+    padding: 25px;
 }
 
 .profile {
@@ -101,17 +125,12 @@ p { /* Elemental selector */
 }
 
 .About { /* class  selector */
-    margin: 50px;
     font-size: 1rem;
-    
 }
 
 .a { /* class  selector */
     transform: rotate(0deg);
-    margin-bottom: 100px;
-
 }
-
 
 .Contact { /* class  selector */
     display: inline-block;
@@ -122,11 +141,11 @@ p { /* Elemental selector */
     flex-wrap: wrap;
 }
 
-
 .form {/* class  selector */
     font-size: 2.5rem;
     font-weight: 600;
     display: block;
+    margin: 25px;
 }
 
 .work {
@@ -136,9 +155,19 @@ p { /* Elemental selector */
     padding:0;
 }
 
+#prework-study-guide {
+    margin-top: 50px;
+}
 
+#HW-Module-1 {
+    margin-top: 50px;
+}
 
-@media screen and (max-width: 700px) {
+#placeholder {
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 972px) {
     section {
         columns: 3;
     }    
@@ -155,6 +184,6 @@ p { /* Elemental selector */
     body {
         background-color: orange;
 }
-
+}
 
 

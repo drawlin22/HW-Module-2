@@ -2,27 +2,29 @@
 
 ## Description
 
-Module 1 challenge focued on HTML elements including styling and positioning. The assignment includes normal flow to the HTML semantic elements.
-
-This challenge was an existing website for Horiseon with non semantic code, broken links, and an uncommented CSS file.
+Module 2 challenge focued on HTML and CSS elements including styling and positioning. The assignment includes normal flow to the HTML semantic elements.
+This challenge was to build a working portfolio from scratch for a potential employer to view. The portfolio includes samples of work for an employer to 
+reference in making an assessment of my work.
 
 
 ## Installation
 
 Link to Deployed website:
+https://drawlin22.github.io/HW-Module-2/
 
 
 ## Usage
 
-
+![Deployed Portfolio](<assets/img/Screenshot 2023-06-23 at 5.15.02 PM.png>)
 
 ## Credits
 
 
 Chelsea Wagner
 
-https://github.com/caf62219/hw-challenge-1
+https://github.com/caf62219/chelsea-wagner-portfolio
 
+Place holder image from:
 https://loremipsum.io/21-of-the-best-placeholder-image-generators
 
 ## License
