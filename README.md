@@ -12,8 +12,8 @@ https://drawlin22.github.io/HW-Module-2/
 
 
 ## Usage
-
-[Deployed Portfolio](<assets/img/Deployed Portfolilo.png>)
+Deployed Portfolio:
+(<assets/img/Deployed Portfolilo.png>)
 
 ## Credits
 
