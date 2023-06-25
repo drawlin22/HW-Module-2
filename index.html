@@ -9,20 +9,20 @@
 
       <header>
             <h1>Donnie Rawlings</h1>
-            <figure class="profile">
+            <figure class="profile"> <!-- Picture pivots when hovering over section -->
 <img src="assets/img/image000000.jpeg" height="300px" width="300px" alt="French Horn">
            </figure>
         <nav>
             <ul>
-                <li class="li1">
+                <li class="li1"> <!-- Scrolls to about me section -->
                     <a href="#About Me">About Me</a>
                 </li>    
                 
-                <li class="li1"> 
+                <li class="li1"> <!-- Scrolls to My Work section -->
                     <a href="#My Work">My Work</a>
                 </li>
             
-                <li class="li1"> 
+                <li class="li1"> <!-- Scrolls to Contact me section -->
                      <a href="#Contact Me">Contact Me</a>
                 </li>
             
@@ -35,7 +35,7 @@
 
     <main>
         <section class="About" id="About Me">
-                <H2>About Me</H2><br>
+                <H2>About Me</H2><br> <!-- Break added-->
 
                 <p>
                         My name is Donnie Rawlings, and I decided to change my career after twenty-two years of working in retail and restaurant upper management. 
@@ -53,44 +53,36 @@
                     and am currently working through a full stack bootcamp at UC Davis.
                 
                 </p><br>
-
+        
         </section>
 
+                 <h2>My Work</h2> <!-- Heading added outside of Section container to not be impacted by CSS=work -->
         <section class="work" id="My Work">
-                <h2>My Work</h2>
                <article id="prework-study-guide">
-                <!-- <p>PreworkStudyGuie</p> -->
                     <a href="https://drawlin22.github.io/prework-study-guide/"><img src="./assets/img/PreworkStudyGuie.png" title="PreworkStudyGuie" alt="Study Guide" height="500px" width="400px" class="a"></a>
                 <section class="card-content">
                 </article>
 
                 <article id="HW-Module-1">
-               <!-- <p>Hw-Module-1</p> -->
                     <a href="https://drawlin22.github.io/HW-Module-1/"><img src="./assets/img/HW-Module-1.png" title="Horiseon Project" alt="Homework 1" height="400px" width="300px" class="a"></a>
                </article>
                <article id="placeholder">
-                <!-- <p>placeholder</p> -->
                     <a href="https://picsum.photos/640/360"><img src="./assets/img/Placeholder Project.png" title="Placeholder Project" alt="Placeholder Project" height="400px" width="300px" class="a"></a>
                </article>
-               <article id="placeholder2"> 
-                <!-- <p>placeholder2</p>    -->
-                    <!-- <a href="https://picsum.photos/640/360"><img src="./assets/img/Placeholder Project 2.png" alt="Placeholder Project 2" height="400px" width="300px" class="a"></a>
-                </article> -->
 
         </section>
-
+                 <h2>Contact Me</h2> <!-- Heading added outside of Section container to not be impacted by CSS=work -->
         <Section class=Contact id="Contact Me">
-                <h2>Contact Me</h2>
                
                 <form action="mailto:tacobellboi@yahoo.com" method="post" class="form">
 
                     <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br> <!-- Breaks added-->
                 
                     <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br> <br>
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br> <br><!-- Breaks added-->
+                    <label for="subject"></label>
+                    <textarea id="subject" name="subject" placeholder="How Can I help?" style="height:200px"></textarea>
                 
                     <input type="submit" value="Submit">
                 

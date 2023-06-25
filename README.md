@@ -2,9 +2,7 @@
 
 ## Description
 
-Module 2 challenge focued on HTML and CSS elements including styling and positioning. The assignment includes normal flow to the HTML semantic elements.
-This challenge was to build a working portfolio from scratch for a potential employer to view. The portfolio includes samples of work for an employer to 
-reference in making an assessment of my work.
+Module 2 challenge focued on HTML and CSS elements including styling and positioning. The assignment includes normal flow to the HTML semantic elements.This challenge was to build a working portfolio from scratch for a potential employer to view. The portfolio includes samples of work for an employer to reference in making an assessment of my work.
 
 
 ## Installation
@@ -15,7 +13,7 @@ https://drawlin22.github.io/HW-Module-2/
 
 ## Usage
 
-![Deployed Portfolio](<assets/img/Screenshot 2023-06-23 at 5.15.02 PM.png>)
+[Deployed Portfolio](<assets/img/Deployed Portfolilo.png>)
 
 ## Credits
 
